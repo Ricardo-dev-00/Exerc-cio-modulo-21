@@ -1,5 +1,10 @@
 # Book Catalog — Exercício prático (EBAC · Módulo 21)
 
+# Preview
+
+![Preview da aplicação](src/img/tela-page.png)
+
+
 Versão melhorada de um catálogo de livros construída com React + TypeScript (Vite).
 
 Este repositório contém a implementação do exercício prático do Módulo 21 do curso EBAC: foco em tipagem de dados, organização de componentes e integração com uma API REST (crudcrud.com).
@@ -17,10 +22,6 @@ Demo rápida
 
 Pré-requisitos
 - Node 16+ e npm
-
-Nota sobre execução
-- As instruções de instalação e execução foram removidas deste README por solicitação. Se você quiser, posso re-adicioná-las em uma seção separada do repositório ou manter um arquivo `CONTRIBUTING.md` com passos de desenvolvimento.
-
 
 Estrutura do projeto (resumo)
 - `src/` — código fonte
@@ -40,5 +41,5 @@ Observações finais
 Licença
 - Conteúdo criado como exercício do curso EBAC — use para fins educativos.
 
-Contato
-- Se quiser sugestões de melhorias, testes ou integração com `json-server` para um backend local mais robusto, abra uma issue ou me avise.
+## Autor
+Desenvolvido por Ricardo Vieira.
