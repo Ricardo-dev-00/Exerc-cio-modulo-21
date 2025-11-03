@@ -18,57 +18,9 @@ Demo rápida
 Pré-requisitos
 - Node 16+ e npm
 
-Instalação
-1. Instale dependências:
+Nota sobre execução
+- As instruções de instalação e execução foram removidas deste README por solicitação. Se você quiser, posso re-adicioná-las em uma seção separada do repositório ou manter um arquivo `CONTRIBUTING.md` com passos de desenvolvimento.
 
-```powershell
-npm install
-```
-
-2. Crie o arquivo de ambiente (copie o exemplo):
-
-```powershell
-copy .env.example .env
-```
-
-Configurar a API (crudcrud.com)
-1. Acesse https://crudcrud.com. A página mostrará uma URL exclusiva temporária:
-
-```
-https://crudcrud.com/api/<sua-chave>
-```
-
-2. No `.env` defina a variável `VITE_CRUDCRUD_BASE` apontando para o recurso `books`:
-
-```
-VITE_CRUDCRUD_BASE=https://crudcrud.com/api/<sua-chave>/books
-```
-
-3. Observação: a chave do crudcrud expira (normalmente ~24h). Se receber erros 4xx/5xx, gere uma nova chave no site.
-
-Usando o modo mock (recomendado para desenvolvimento)
-- Em vez de depender do endpoint remoto, você pode ativar um mock local que salva os livros em `localStorage`.
-- Abra `.env` e defina:
-
-```
-VITE_USE_MOCK=true
-```
-
-Ou alterne o mock em tempo de execução pelo botão "Modo mock" no header da aplicação (persistido no `localStorage`).
-
-Executando a aplicação
-
-```powershell
-npm run dev
-# abrir http://localhost:5173
-```
-
-Build para produção
-
-```powershell
-npm run build
-npm run preview
-```
 
 Estrutura do projeto (resumo)
 - `src/` — código fonte
